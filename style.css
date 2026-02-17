@@ -1,0 +1,412 @@
+/*for everything entirely*/
+*{
+    cursor: url('cursor2.cur'), auto;
+    scrollbar-color: #ffcece #fefec8; /* thumb color | track color */
+
+}
+
+/*background*/
+body {
+    background-color:whitesmoke;
+    background-image: url("Background.jpg");
+    color: black;
+    font-family: Verdana;
+}
+
+/*moving the list*/
+ul{
+    margin-left: -30px;
+    margin-top: 42px;
+}
+
+/* everything in the list*/
+li{
+    list-style: none;
+    padding: 15px 20px;
+    background-image: url("fish.png");
+    background-position: left center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+/*moving the first word in the list*/
+li:first-child {
+    position: absolute;
+    top: 49px;
+}
+
+/*maiking the rainyhearts font*/
+@font-face {
+    font-family: rainyhearts;
+    src: url("rainyhearts.woff");
+}
+
+/* Cathys world measurement and placement*/
+#maintext{
+    width: 700px;
+    position: absolute;
+    left: 265px;
+}
+
+/*measurements and placement for the star in the header*/
+#star{
+    width: 74px;
+    position: absolute;
+    left: 734px;
+    top: 10px;
+}
+
+/*everything for the currentlybox*/
+.middlebox{
+    position: absolute;
+    border-style:dotted;
+    border-color:rgb(255, 188, 107);;
+    background-image: url("Background2.jpg");
+    left: 930px;
+    top: 120px;
+    width: 260px;
+    height: 500px;
+    font-family: rainyhearts;
+    font-size: 25px;
+    color: #fe6969;
+    
+}
+
+/*positions and measurements for the textbox in the currentlybox*/
+#textbox{
+    width:260px;
+    height: 55px;
+}
+
+/* positions for fluttershy peaking */
+#peak{
+    position: absolute;
+    width: 100px;
+    left: 1000px;
+    top: 61px;
+}
+
+/*positions for the currently.. header*/
+#currently{
+    position: absolute;
+    left:10px;
+    top: -90px;
+    width: 260px;
+}
+
+/*positions for the cute gif inside the currently box*/
+#cute{
+    position: absolute;
+    width: 270px;
+    height: 170px;
+    left:-2px;
+    top: 335px
+}
+
+/*positions for Imood*/
+#mood{
+    position: absolute;
+    width: 126px;
+    left: 950px;
+    top: 214px;
+}
+
+/*mainthings for the things under the list*/
+.currentlylist{
+    position: absolute;
+    font-family: rainyhearts;
+    font-size: 22px;
+    color: #ff8080;
+    left: 953px;
+    width: 250px;
+}
+/*Moving the text down lol*/
+#watching{
+    top: 247px;
+}
+#reading{
+    top: 302px;
+}
+#playing{
+    top: 357px;
+}
+#workingon{
+    top: 409px;
+}
+
+
+
+/*TV*/
+
+#tv{
+    position: absolute;
+    width: 680px;
+    left: 200px;
+    top: 160px;
+    pointer-events: none;
+}
+
+#tvbackground{
+    position: absolute;
+    border: #fe6969;
+    background-image: url("tv background.jpg");
+    border-style: dotted;
+    width: 510px;
+    left: 230px;
+    height: 380px;
+    top: 190px;
+}
+
+#display{
+    position: absolute;
+    border: #fefec8;
+    border-style: dotted;
+    width: 510px;
+    left: 230px;
+    top:520px;
+    height: 50px;
+
+}
+
+#Aboutme{
+    position: absolute;
+    background-image: url("aboutmebackground.jpg");
+    background-attachment: local;
+    background-size: 420px;
+    border: #ff8ab7;
+    border-style: dotted;
+    width: 510px;
+    left: 230px;
+    top: 187px;
+    height: 330px;
+    overflow-y: auto;          /* Vertical scrollbar when needed */
+    overflow-x: hidden; 
+}
+
+
+#textbox2{
+    position: absolute;
+    width: 220px;
+    left: 220px;
+    top: 160px;
+}
+
+
+#intro{
+    position: absolute;
+    font-size: 20px;
+    font-family: rainyhearts;
+    color: rgb(255, 20, 98);
+    left: 233px;
+    top: 164px;
+}
+#characters{
+    position: absolute;
+    background-color: #f9d0db;
+    border: #ff8ab7;
+    width: 160px;
+    height: 160px;
+    border-style: dotted;
+    left: 30px;
+    top: 20px;
+    overflow-y: auto;          /* Vertical scrollbar when needed */
+    overflow-x: hidden; 
+}
+.imginsidebox{
+    width: 160px;
+    height: 160px;
+}
+#quizresults{
+    position: absolute;
+    background-image: url("testresultsbackground.jpg");
+    background-position: center;
+    background-size: 330px;
+    border: #ff8ab7;
+    width: 350px;
+    height: 160px;
+    border-style: dotted;
+    left: 60px;
+    top: 340px;
+    overflow-y: auto;          /* Vertical scrollbar when needed */
+    overflow-x: hidden;
+}
+.imgquizresults{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 17px;
+
+}
+
+#characterstext{
+    position: absolute;
+    left: 193px;
+    top: 25px;
+}
+#pinkflower{
+    position: absolute;
+    width: 120px;
+    top: 200px;
+}
+#mikuu{
+    position: absolute;
+    width: 120px;
+    top: 200px;
+    left: 90px;
+}
+#cuwhatever{
+    position: absolute;
+    top: 40px;
+    width: 140px;
+    left: 250px;
+}
+#quiztext{
+    position: absolute;
+    top: 320px;
+    left: 70px;
+}
+#madoka{
+    top: 200px;
+}
+#uke{
+    top: 400px;
+}
+#kuudere{
+    top: 600px;
+}
+#shoujo{
+    top: 800px;
+}
+#pinkiepie{
+    top: 1004px;
+}
+#Fitcheck{
+    position: absolute;
+    background-image: url("fitcheckbg9.jpg");
+    background-attachment: local;
+    background-size: 470px;
+    border: #ff8ab7;
+    border-style: dotted;
+    width: 510px;
+    left: 230px;
+    top: 187px;
+    height: 330px;
+    overflow-y: auto;          /* Vertical scrollbar when needed */
+    overflow-x: hidden;
+}
+
+
+
+#outfit1{
+    position: absolute;
+    width: 115px;
+    top: 100px;
+    left: 55px;
+    
+}
+
+#yellowborder{
+    position: absolute;
+    width: 145px;
+    top:80px;
+    left: 43px;
+}
+
+#fittextbox{
+    position: absolute;
+    width: 280px;
+    left:170px;
+    top: 200px;
+}
+
+#verycute{
+    position: absolute;
+    width: 190px;
+    left:220px;
+    top: 100px;
+    border: #fa9b9b dashed;
+    
+}
+
+.fitavater{
+    position: absolute;
+    width: 65px;
+    top: 245px;
+    left: 130px;
+}
+
+#next{
+    position: absolute;
+    width: 70px;
+    left: 350px;
+    top: 15px;
+}
+#previous{
+    position: absolute;
+    width: 70px;
+    left: 260px;
+    top: 15px;
+}
+
+.fitdate{
+    position: absolute;
+    font-family: rainyhearts;
+    color: rgb(250, 130, 31);
+    left: 203px;
+    top: 200px;
+}
+.fitcheck{
+    position: absolute;
+    font-family: rainyhearts;
+    color: rgb(250, 130, 31);
+    left: 208px;
+    top: 233px;
+    font-size: 11px
+}
+
+#bluefit{
+    display:none;
+}
+
+#brownfit{
+    display: block;
+}
+#cozyfit{
+    display: none;
+}
+#pinkfit{
+    display: none;
+}
+#Fitcheck{
+    display: none;
+}
+#outfit2{
+    position: absolute;
+    width: 115px;
+    top: 95px;
+    left: 55px;
+    
+}
+#outfit3{
+    position: absolute;
+    width: 85px;
+    top: 95px;
+    left: 65px;
+    
+}
+
+#outfit4{
+    position: absolute;
+    width: 85px;
+    top: 95px;
+    left: 60px;
+}
+
+#pinkfitavater{
+    position: absolute;
+    width: 65px;
+    top: 230px;
+    left: 125px;
+}
